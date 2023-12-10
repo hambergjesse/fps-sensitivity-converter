@@ -1,0 +1,51 @@
+body {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* White text color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif; /* Use Roboto font */
+}
+
+.app-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #2d2d2d; /* Darker container background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.game-selection,
+.input-container,
+.result-container {
+  margin-bottom: 15px;
+}
+
+.game-selection select,
+.input-container input {
+  width: calc(100% - 20px); /* Adjust the width as needed */
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #555555; /* Dark button background color */
+  color: #ffffff; /* White button text color */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #777777; /* Darker button hover background color */
+}
+
+.result-container p {
+  color: #ffffff; /* White result text color */
+  margin: 0;
+}
